@@ -4,9 +4,7 @@
   "buildCommand": null,
   "functions": {
     "api/**/*.js": {
-      "includeFiles": [
-        "node_modules/better-sqlite3/**"
-      ]
+      "includeFiles": "node_modules/better-sqlite3/**"
     }
   }
 }
