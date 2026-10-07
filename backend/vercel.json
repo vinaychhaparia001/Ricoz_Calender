@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": null,
+  "functions": {
+    "api/**/*.js": {
+      "includeFiles": [
+        "node_modules/better-sqlite3/**"
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "ricoz-calendar-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node dev-server.js"
+  }
+}
