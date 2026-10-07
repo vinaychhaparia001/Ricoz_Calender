@@ -6,7 +6,7 @@ const {
   requireDate, requireTime, requireDuration, minToTime, timeToMin,
 } = require("../lib/time");
 
-const MAX_RANGE_DAYS = 120;
+const MAX_RANGE_DAYS = 400;
 
 function createEventService(db, availability, sharing) {
   const qPerson = db.prepare("SELECT id FROM people");
