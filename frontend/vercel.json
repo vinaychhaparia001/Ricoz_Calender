@@ -4,6 +4,6 @@
   "buildCommand": null,
   "outputDirectory": ".",
   "rewrites": [
-    { "source": "/api/:path*", "destination": "https://YOUR-BACKEND-PROJECT.vercel.app/api/:path*" }
+    { "source": "/api/:path*", "destination": "https://ricoz-calender-1ugo-bt3vca879-vinay-12b8.vercel.app/" }
   ]
 }
